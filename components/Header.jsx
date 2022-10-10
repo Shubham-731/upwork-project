@@ -24,12 +24,13 @@ const Header = () => {
 
         <div className="bg-[#333d8f] p-2 text-white rounded-full relative">
           <FaBell />
+          <div className="w-2 h-2 rounded-full absolute top-1 right-1 bg-yellow-500"></div>
         </div>
 
         <div className="flex items-center space-x-2">
           <p className="text-white">Minhas Asif</p>
           <img
-            src="/assets/images/random-user.jpeg"
+            src="/assets/images/random-user.png"
             alt="Random user"
             className="w-7 h-7 rounded-full"
           />

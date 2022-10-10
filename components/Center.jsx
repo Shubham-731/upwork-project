@@ -23,14 +23,19 @@ const Center = () => {
               Instagram
             </span>
           </div>
-          <p className="font-bold text-[#040f45] text-lg">9,89670</p>
-          <p className="text-slate-500">Influencers since last month</p>
+          <div className="space-y-3">
+            <div className="flex item-center justify-between">
+              <p className="font-bold text-[#040f45] text-lg">9,89670</p>
+              <img src="/assets/images/graph.png" alt="graph" />
+            </div>
+            <p className="text-slate-500">Influencers since last month</p>
+          </div>
         </div>
 
         <div className="bg-white p-3 space-y-2 rounded-lg">
           <div>
             <img
-              src="/assets/images/youtube.png"
+              src="/assets/images/youtube.svg"
               alt="Youtube"
               className="w-10 h-10 rounded-full inline-block mr-3 shadow-lg shadow-red-300"
             />
@@ -39,8 +44,13 @@ const Center = () => {
             </span>
           </div>
 
-          <p className="font-bold text-[#040f45] text-lg">9,89670</p>
-          <p className="text-slate-500">Influencers since last month</p>
+          <div className="space-y-3">
+            <div className="flex item-center justify-between">
+              <p className="font-bold text-[#040f45] text-lg">9,89670</p>
+              <img src="/assets/images/graph.png" alt="graph" />
+            </div>
+            <p className="text-slate-500">Influencers since last month</p>
+          </div>
         </div>
 
         <div className="bg-white p-3 space-y-2 rounded-lg">
@@ -55,8 +65,13 @@ const Center = () => {
             </span>
           </div>
 
-          <p className="font-bold text-[#040f45] text-lg">9,89670</p>
-          <p className="text-slate-500">Influencers since last month</p>
+          <div className="space-y-3">
+            <div className="flex item-center justify-between">
+              <p className="font-bold text-[#040f45] text-lg">9,89670</p>
+              <img src="/assets/images/graph.png" alt="graph" />
+            </div>
+            <p className="text-slate-500">Influencers since last month</p>
+          </div>
         </div>
 
         <div className="bg-white row-span-4">
@@ -160,7 +175,7 @@ const Center = () => {
                 <div className="flex items-center justify-between w-60 border border-slate-300 rounded p-1">
                   <div className="flex space-x-1 items-center">
                     <img
-                      src="/assets/images/random-user.jpeg"
+                      src="/assets/images/random-user.png"
                       alt="user"
                       className="w-8 h-8"
                     />
@@ -185,33 +200,7 @@ const Center = () => {
                 <div className="flex items-center justify-between w-60 border border-slate-300 rounded p-1">
                   <div className="flex space-x-1 items-center">
                     <img
-                      src="/assets/images/random-user.jpeg"
-                      alt="user"
-                      className="w-8 h-8"
-                    />
-                    <div>
-                      <p className="text-sm font-semibold">Username</p>
-                      <p className="flex items-center space-x-1 text-sm">
-                        <FaInstagram />
-                        <span>1.5k</span>
-                      </p>
-                    </div>
-                  </div>
-                  <div>
-                    <p className="text-sm text-[#101b52] font-semibold">
-                      Heart Disease
-                    </p>
-                    <p className="flex items-center space-x-1 text-sm">
-                      <FaMapMarkerAlt className="" />
-                      <span>Switzerland</span>
-                    </p>
-                  </div>
-                </div>
-
-                <div className="flex items-center justify-between w-60 border border-slate-300 rounded p-1">
-                  <div className="flex space-x-1 items-center">
-                    <img
-                      src="/assets/images/random-user.jpeg"
+                      src="/assets/images/random-user.png"
                       alt="user"
                       className="w-8 h-8"
                     />
@@ -237,7 +226,7 @@ const Center = () => {
                 <div className="flex items-center justify-between w-60 border border-slate-300 rounded p-1">
                   <div className="flex space-x-1 items-center">
                     <img
-                      src="/assets/images/random-user.jpeg"
+                      src="/assets/images/random-user.png"
                       alt="user"
                       className="w-8 h-8"
                     />
@@ -263,7 +252,7 @@ const Center = () => {
                 <div className="flex items-center justify-between w-60 border border-slate-300 rounded p-1">
                   <div className="flex space-x-1 items-center">
                     <img
-                      src="/assets/images/random-user.jpeg"
+                      src="/assets/images/random-user.png"
                       alt="user"
                       className="w-8 h-8"
                     />
@@ -289,7 +278,33 @@ const Center = () => {
                 <div className="flex items-center justify-between w-60 border border-slate-300 rounded p-1">
                   <div className="flex space-x-1 items-center">
                     <img
-                      src="/assets/images/random-user.jpeg"
+                      src="/assets/images/random-user.png"
+                      alt="user"
+                      className="w-8 h-8"
+                    />
+                    <div>
+                      <p className="text-sm font-semibold">Username</p>
+                      <p className="flex items-center space-x-1 text-sm">
+                        <FaInstagram />
+                        <span>1.5k</span>
+                      </p>
+                    </div>
+                  </div>
+                  <div>
+                    <p className="text-sm text-[#101b52] font-semibold">
+                      Heart Disease
+                    </p>
+                    <p className="flex items-center space-x-1 text-sm">
+                      <FaMapMarkerAlt className="" />
+                      <span>Switzerland</span>
+                    </p>
+                  </div>
+                </div>
+
+                <div className="flex items-center justify-between w-60 border border-slate-300 rounded p-1">
+                  <div className="flex space-x-1 items-center">
+                    <img
+                      src="/assets/images/random-user.png"
                       alt="user"
                       className="w-8 h-8"
                     />
@@ -339,7 +354,7 @@ const Center = () => {
                 <div className="flex items-center justify-between w-60 border border-slate-300 rounded p-1">
                   <div className="flex space-x-1 items-center">
                     <img
-                      src="/assets/images/random-user.jpeg"
+                      src="/assets/images/random-user.png"
                       alt="user"
                       className="w-8 h-8"
                     />
@@ -364,33 +379,7 @@ const Center = () => {
                 <div className="flex items-center justify-between w-60 border border-slate-300 rounded p-1">
                   <div className="flex space-x-1 items-center">
                     <img
-                      src="/assets/images/random-user.jpeg"
-                      alt="user"
-                      className="w-8 h-8"
-                    />
-                    <div>
-                      <p className="text-sm font-semibold">Username</p>
-                      <p className="flex items-center space-x-1 text-sm">
-                        <FaInstagram />
-                        <span>1.5k</span>
-                      </p>
-                    </div>
-                  </div>
-                  <div>
-                    <p className="text-sm text-[#101b52] font-semibold">
-                      Heart Disease
-                    </p>
-                    <p className="flex items-center space-x-1 text-sm">
-                      <FaMapMarkerAlt className="" />
-                      <span>Switzerland</span>
-                    </p>
-                  </div>
-                </div>
-
-                <div className="flex items-center justify-between w-60 border border-slate-300 rounded p-1">
-                  <div className="flex space-x-1 items-center">
-                    <img
-                      src="/assets/images/random-user.jpeg"
+                      src="/assets/images/random-user.png"
                       alt="user"
                       className="w-8 h-8"
                     />
@@ -416,7 +405,7 @@ const Center = () => {
                 <div className="flex items-center justify-between w-60 border border-slate-300 rounded p-1">
                   <div className="flex space-x-1 items-center">
                     <img
-                      src="/assets/images/random-user.jpeg"
+                      src="/assets/images/random-user.png"
                       alt="user"
                       className="w-8 h-8"
                     />
@@ -442,7 +431,7 @@ const Center = () => {
                 <div className="flex items-center justify-between w-60 border border-slate-300 rounded p-1">
                   <div className="flex space-x-1 items-center">
                     <img
-                      src="/assets/images/random-user.jpeg"
+                      src="/assets/images/random-user.png"
                       alt="user"
                       className="w-8 h-8"
                     />
@@ -468,7 +457,33 @@ const Center = () => {
                 <div className="flex items-center justify-between w-60 border border-slate-300 rounded p-1">
                   <div className="flex space-x-1 items-center">
                     <img
-                      src="/assets/images/random-user.jpeg"
+                      src="/assets/images/random-user.png"
+                      alt="user"
+                      className="w-8 h-8"
+                    />
+                    <div>
+                      <p className="text-sm font-semibold">Username</p>
+                      <p className="flex items-center space-x-1 text-sm">
+                        <FaInstagram />
+                        <span>1.5k</span>
+                      </p>
+                    </div>
+                  </div>
+                  <div>
+                    <p className="text-sm text-[#101b52] font-semibold">
+                      Heart Disease
+                    </p>
+                    <p className="flex items-center space-x-1 text-sm">
+                      <FaMapMarkerAlt className="" />
+                      <span>Switzerland</span>
+                    </p>
+                  </div>
+                </div>
+
+                <div className="flex items-center justify-between w-60 border border-slate-300 rounded p-1">
+                  <div className="flex space-x-1 items-center">
+                    <img
+                      src="/assets/images/random-user.png"
                       alt="user"
                       className="w-8 h-8"
                     />
@@ -518,7 +533,7 @@ const Center = () => {
                 <div className="flex items-center justify-between w-60 border border-slate-300 rounded p-1">
                   <div className="flex space-x-1 items-center">
                     <img
-                      src="/assets/images/random-user.jpeg"
+                      src="/assets/images/random-user.png"
                       alt="user"
                       className="w-8 h-8"
                     />
@@ -544,7 +559,7 @@ const Center = () => {
                 <div className="flex items-center justify-between w-60 border border-slate-300 rounded p-1">
                   <div className="flex space-x-1 items-center">
                     <img
-                      src="/assets/images/random-user.jpeg"
+                      src="/assets/images/random-user.png"
                       alt="user"
                       className="w-8 h-8"
                     />
@@ -570,7 +585,7 @@ const Center = () => {
                 <div className="flex items-center justify-between w-60 border border-slate-300 rounded p-1">
                   <div className="flex space-x-1 items-center">
                     <img
-                      src="/assets/images/random-user.jpeg"
+                      src="/assets/images/random-user.png"
                       alt="user"
                       className="w-8 h-8"
                     />
@@ -596,7 +611,7 @@ const Center = () => {
                 <div className="flex items-center justify-between w-60 border border-slate-300 rounded p-1">
                   <div className="flex space-x-1 items-center">
                     <img
-                      src="/assets/images/random-user.jpeg"
+                      src="/assets/images/random-user.png"
                       alt="user"
                       className="w-8 h-8"
                     />
@@ -622,7 +637,7 @@ const Center = () => {
                 <div className="flex items-center justify-between w-60 border border-slate-300 rounded p-1">
                   <div className="flex space-x-1 items-center">
                     <img
-                      src="/assets/images/random-user.jpeg"
+                      src="/assets/images/random-user.png"
                       alt="user"
                       className="w-8 h-8"
                     />
@@ -647,7 +662,7 @@ const Center = () => {
                 <div className="flex items-center justify-between w-60 border border-slate-300 rounded p-1">
                   <div className="flex space-x-1 items-center">
                     <img
-                      src="/assets/images/random-user.jpeg"
+                      src="/assets/images/random-user.png"
                       alt="user"
                       className="w-8 h-8"
                     />

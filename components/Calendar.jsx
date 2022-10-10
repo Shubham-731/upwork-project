@@ -4,7 +4,7 @@ const Calendar = () => {
   return (
     <div class="flex items-center justify-center">
       <div class="max-w-sm w-full shadow-lg">
-        <div class="md:py-2 dark:bg-slate-100 bg-white rounded-t">
+        <div class="md:py-2 bg-white rounded-t">
           <div class="px-4 flex items-center justify-between">
             <span tabindex="0" class="focus:outline-none  text-base font-bold ">
               October 2020

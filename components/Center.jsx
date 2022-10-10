@@ -1,5 +1,6 @@
 import { FaAngleLeft, FaAngleRight } from "react-icons/fa";
 import Calendar from "react-calendar";
+
 import "react-calendar/dist/Calendar.css";
 
 const Center = () => {
@@ -69,7 +70,7 @@ const Center = () => {
         </div>
 
         <div className="bg-white row-span-4 w-full">
-          <Calendar />
+          <Calendar className="shadow-lg shadow-slate-200" />
 
           <div className="mt-2 p-2">
             <p className="text-[#14084d] font-semibold mb-3">Notifications</p>

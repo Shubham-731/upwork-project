@@ -7,24 +7,35 @@ const Header = () => {
 
       <div className="relative space-x-4 flex items-center">
         <div className="relative bg-[#333d8f] rounded-lg">
-          <span className="absolute top-2 left-2">
-            <FaSearch className="text-slate-400" />
+          <span className="absolute top-2 left-2 flex items-center">
+            <img
+              src="/assets/images/search.png"
+              alt="info"
+              className="inline-block"
+            />
           </span>
           <input
             type="text"
-            className="w-60 py-1 pr-3 pl-7 text-white bg-[#333d8f] rounded-md border-none outline-none"
+            className="w-60 py-1 pr-3 pl-8 text-white bg-[#333d8f] rounded-md border-none outline-none"
             placeholder="Looking for someone"
           />
         </div>
 
-        <div className="bg-[#333d8f] rounded-full px-3 py-1 text-white">
-          <FaInfoCircle className="inline-block mr-2" />
+        <div className="bg-[#333d8f] rounded-full px-3 py-1 text-white flex items-center">
+          <img
+            src="/assets/images/Info.png"
+            alt="info"
+            className="inline-block mr-1 w-4"
+          />
           <span className="inline-block">Help ?</span>
         </div>
 
-        <div className="bg-[#333d8f] p-2 text-white rounded-full relative">
-          <FaBell />
-          <div className="w-2 h-2 rounded-full absolute top-1 right-1 bg-yellow-500"></div>
+        <div className="bg-[#333d8f] p-2 text-white rounded-full relative flex items-center">
+          <img
+            src="/assets/images/BellSimple.png"
+            alt="info"
+            className="inline-block mr-1 w-4"
+          />
         </div>
 
         <div className="flex items-center space-x-2">
